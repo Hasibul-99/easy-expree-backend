@@ -1,0 +1,45 @@
+//production
+
+
+{
+  "mongoURI": "mongodb://arif:1S1s1sps@localhost:8081/easy-express?authSource=admin",
+  "jwtSecret": "ar-security-token-13101085",
+  "jwtExpiration": 360000,
+  "fileBasePath": "/static/",
+  "ssl_url": "https://securepay.sslcommerz.com/gwprocess/v4/api.php",
+  "success_url": "http://easyexpress24.com/success",
+  "fail_url": "http://easyexpress24.com/payment/failed",
+  "cancel_url": "http://easyexpress24.com/payment/success",
+  "ipn_url": "http://server.easyexpress24.com/api/payment/ssl-ipn",
+  "store_id": "easyexpress24live",
+  "store_passwd": "605C123EAAF6433779"
+}
+
+  "jwtSecret": "ar-security-token-13101085",
+  "jwtExpiration": 360000,
+  "fileBasePath": "/static/",
+  "ssl_url": "https://securepay.sslcommerz.com/gwprocess/v4/api.php",
+  "success_url": "http://easyexpress24.com/success",
+  "fail_url": "http://easyexpress24.com/failed",
+  "cancel_url": "http://easyexpress24.com/cancel",
+  "ipn_url": "http://easyexpress24.com:5000/api/payment/ssl-ipn",
+  "store_id": "easyexpress24live",
+  "store_passwd": "605C123EAAF6433779"
+}
+
+
+//sandbox
+
+{
+  "mongoURI": "mongodb://arif:1S1s1sps@localhost:8081/easy-express?authSource=admin",
+  "jwtSecret": "ar-security-token-13101085",
+  "jwtExpiration": 360000,
+  "fileBasePath": "/static/",
+  "ssl_url": "https://sandbox.sslcommerz.com/gwprocess/v4/api.php",
+  "success_url": "http://easyexpress24.com/payment/success",
+  "fail_url": "http://easyexpress24.com/payment/failed",
+  "cancel_url": "http://easyexpress24.com/payment/cancel",
+  "ipn_url": "http://server.easyexpress24.com/api/payment/ssl-ipn",
+  "store_id": "testbox",
+  "store_passwd": "qwerty"
+}

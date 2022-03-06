@@ -1,0 +1,7 @@
+{
+    "apps": [{
+        "name": "easy-express-nodejs",
+        "script": "npm",
+        "args": "start"
+    }]
+}
